@@ -26,7 +26,7 @@ Not all of the fields have to be persisted. You may use ad hoc calculation, even
 
 (*) a log output will suffice as a notification here, but you should design it as if each status change triggers a completely different business case.
 
-##Build and run
+## Build and run
  1. setup maven (https://maven.apache.org/)
  2. in app folder type: mvn clean package
  3. java -jar ./target/recruiting-0.0.1-SNAPSHOT.jar
